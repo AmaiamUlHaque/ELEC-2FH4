@@ -40,13 +40,13 @@ NM_dot_PM = dot(R_NM,R_PM);
 
 %% part C
 
-% proj A on B: (A dot B) a_B
+% proj A on B: (A dot a_B) a_B
 
 unit_PM = R_PM / norm(R_PM); 
 
 % proj_NMonPM = unit_PM * NM_dot_PM;
-% proj_NMonPM = unit_PM * dot(R_NM,R_PM);
-proj_NMonPM = unit_PM * dot(R_NM,unit_PM);
+% proj_NMonPM = unit_PM * dot(R_NM,R_PM);  % (A dot B) a_B
+proj_NMonPM = unit_PM * dot(R_NM,unit_PM); % (A dot a_B) a_B
 
 
 %% part D
