@@ -11,8 +11,8 @@
 
 %% ------------------------------------------------------------------------------------
 
-clc;
-clear;
+% clc;
+% clear;
 
 %% define points & vectors
 
@@ -43,7 +43,10 @@ NM_dot_PM = dot(R_NM,R_PM);
 % proj A on B: (A dot B) a_B
 
 unit_PM = R_PM / norm(R_PM); 
-proj_NMonPM = unit_PM * NM_dot_PM;
+
+% proj_NMonPM = unit_PM * NM_dot_PM;
+% proj_NMonPM = unit_PM * dot(R_NM,R_PM);
+proj_NMonPM = unit_PM * dot(R_NM,unit_PM);
 
 
 %% part D
