@@ -52,8 +52,8 @@ rho2=4;%radius of s2
 
 for k=1:z_steps 
     for i=1:phi_steps 
-       S1=S1+rho1*d_phi*d_z;%get contribution to the the area of S1 
-       S2=S2+rho2*d_phi*d_z;%get contribution to the the area of S2 
+       S1=S1+rho1*d_phi*d_z; %get contribution to the the area of S1 
+       S2=S2+rho2*d_phi*d_z; %get contribution to the the area of S2 
     end 
 end 
 
