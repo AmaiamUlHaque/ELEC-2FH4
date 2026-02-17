@@ -28,4 +28,4 @@ proj_R1_on_R2 = unit_R2 * dot(R1, unit_R2)
 
 % A dot B = |A||B| cos(thetaAB)
 
-theta_R1_R2 = acos(dot_R1_R2 / (norm(R1)*norm(R2)));
+theta_R1_R2 = acos(dot_R1_R2 / (norm(R1)*norm(R2)))
