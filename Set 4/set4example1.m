@@ -4,7 +4,7 @@
 
 % A  surface  charge  of  5.0μ C/m^2   is  located  in  the  x-z  plane  
 % in  the  region -2.0 m < x < 2.0 m and -3.0 m < y < 3.0 m. 
-% Find analytically the electric field at the point (0, 4.0, 0) m. 
+% Find analytically the electric field at the point (0, 0, 4.0) m. 
 % Verify your answer using a MATLAB program that applies the principle of superposition.
 
 
