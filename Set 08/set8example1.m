@@ -1,4 +1,3 @@
-
 %% SET 8 EXAMPLE 1
 
 %% QUESTION INFO
